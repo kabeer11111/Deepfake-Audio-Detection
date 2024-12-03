@@ -1,0 +1,7 @@
+Flask
+Werkzeug
+numpy
+tensorflow
+scipy
+librosa
+gunicorn
