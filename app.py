@@ -26,7 +26,7 @@ def predict():
         filepath = os.path.join(app.config['UPLOAD_FOLDER'], filename)
         file.save(filepath)
         prediction = predict_audio(filepath)
-        return render_template('templates/result.html', prediction=prediction)
+        return render_template('result.html', prediction=prediction)
     return redirect(url_for('index'))
 
 if __name__ == "__main__":
