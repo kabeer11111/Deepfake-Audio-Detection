@@ -11,7 +11,7 @@ os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    return render_template('templates/index.html')
 
 
 @app.route('/predict', methods=['POST'])
@@ -26,7 +26,7 @@ def predict():
         filepath = os.path.join(app.config['UPLOAD_FOLDER'], filename)
         file.save(filepath)
         prediction = predict_audio(filepath)
-        return render_template('result.html', prediction=prediction)
+        return render_template('templates/result.html', prediction=prediction)
     return redirect(url_for('index'))
 
 if __name__ == "__main__":
