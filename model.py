@@ -6,7 +6,7 @@ import librosa
 import numpy as np
 import os
 
-MODEL_PATH = "/Users/kabeerkapdi/Desktop/Google Chrome API/audio_deepfake_app/kk_main_ksk.h5"
+MODEL_PATH = "kk_main_ksk.h5"
 SAMPLE_RATE = 16000
 DURATION = 5
 N_MELS = 128
