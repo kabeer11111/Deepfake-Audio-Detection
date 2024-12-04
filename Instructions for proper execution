@@ -1,8 +1,12 @@
 As we know we can't host a website that has a back end on Github, as github is just used to host static sites.
 Step by Step Execution:-
-1. Access the uploaded audio files to test the working of the model.(These audio files are not used to train the model so they are completely new for it)
-2. Visit the website hosted using Render (.....)
-3. Upload one of the file from the provided audio dataset the one with the initials as kk are the spoof samples where as the one without initials are bonafide samples, keeping this in mind will help you to understand the accuracy of the model.
-4. 
+1. Access the uploaded audio files to test the working of the model.(These audio files are not used to train the model so they are completely new for it).
+2. Download the reposatory and access the audio dataset.
+3. One can host it using platforms such as Render, Heroku, Pythonanywhere, etc.
+4. Upload one of the file from the provided audio dataset the one with the initials as kk are the spoof samples where as the one without initials are bonafide samples, keeping this in mind will help you to understand the accuracy of the model.
+5. Recieve the result.
+Disclaimer:-
+The Web aap is currently in the developing phase. So it is not recomended to totally rely on its output as its trained on a small number of data samples (approx 11,000) and do need a lot of data samples get great accuracy and validation for audio prediction.
+The current accuracy of the model is around 97%.
 
 
