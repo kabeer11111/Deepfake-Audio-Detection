@@ -8,9 +8,11 @@ Step by Step Execution:-
 
 I have deployed my Web App using Microsoft Azure, one can acceess the same from the below link and try-out the uploaded audio files in my Repository to check the accuracy of the Web App/Model:-
 Link:- deepfake-g5cjcbhrhkdjb8fz.eastus2-01.azurewebsites.net
+Note: Since the application is hosted on a free-tier service, users may experience higher loading times and occasional performance limitations.
+
 
 Disclaimer:-
-Note: The web application is currently in the development phase. As such, its predictions should not be relied upon entirely at this stage, as the model has been trained on a relatively small dataset of approximately 11,000 samples. To achieve higher accuracy and more reliable validation for audio predictions, a larger and more diverse dataset is required. Further improvements and training with more data are necessary for optimal performance in real-world applications.
+The web application is currently in the development phase. As such, its predictions should not be relied upon entirely at this stage, as the model has been trained on a relatively small dataset of approximately 11,000 samples. To achieve higher accuracy and more reliable validation for audio predictions, a larger and more diverse dataset is required. Further improvements and training with more data are necessary for optimal performance in real-world applications.
 The current accuracy of the model is around 97%.
 
 
