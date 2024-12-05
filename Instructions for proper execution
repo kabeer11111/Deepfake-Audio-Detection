@@ -1,18 +1,15 @@
-As we know we can't host a website that has a back end on Github, as github is just used to host static sites.
-Step by Step Execution:-
-1. Access the uploaded audio files to test the working of the model.(These audio files are not used to train the model so they are completely new for it).
-2. Download the reposatory and access the audio dataset.
-3. One can host it using platforms such as Google Cloud Services, Render, Heroku, Pythonanywhere, Microsft Azure, Amazon Web Services etc.
-4. Upload one of the file from the provided audio files dataset, the one with the initials as "kk" are the spoof samples where as the one without initials are bonafide samples, keeping this in mind will help you to understand the accuracy of the model.
-5. Result will be appeared on the result page.
+Step-by-Step Execution:
+1. Access the uploaded audio files to test the working of the model. These audio files are not part of the training dataset, so they are entirely new for the model.
+2. Download the repository and access the audio files dataset.
+3. The web application can be hosted using platforms like Google Cloud Services, Render, Heroku, PythonAnywhere, Microsoft Azure, AWS, and others.
+4. Upload one of the audio files from the provided dataset. Files with initials "kk" represent spoof samples, while files without initials are bonafide samples. Understanding this distinction will help you assess the accuracy of the model.
+5. The result will appear on the result page, providing the prediction for the uploaded audio.
 
-I have deployed my Web App using Microsoft Azure, one can acceess the same from the below link and try-out the uploaded audio files in my Repository to check the accuracy of the Web App/Model:-
-Link:- deepfake-g5cjcbhrhkdjb8fz.eastus2-01.azurewebsites.net
+Web App Deployment:
+I have deployed my Web App using Microsoft Azure, and you can access it via the following link to try out the working of my web app and check the model’s accuracy:
+Link: deepfake-g5cjcbhrhkdjb8fz.eastus2-01.azurewebsites.net
 Note: Since the application is hosted on a free-tier service, users may experience higher loading times and occasional performance limitations.
 
-
-Disclaimer:-
-The web application is currently in the development phase. As such, its predictions should not be relied upon entirely at this stage, as the model has been trained on a relatively small dataset of approximately 11,000 samples. To achieve higher accuracy and more reliable validation for audio predictions, a larger and more diverse dataset is required. Further improvements and training with more data are necessary for optimal performance in real-world applications.
+Disclaimer:
+The web application is currently in the development phase. As such, its predictions should not be entirely relied upon, as the model has been trained on a relatively small dataset of approximately 11,000 samples. To improve accuracy and provide more reliable audio predictions, a larger and more diverse dataset is required. Ongoing improvements and further training with more data are essential for optimal performance in real-world applications.
 The current accuracy of the model is around 97%.
-
-
