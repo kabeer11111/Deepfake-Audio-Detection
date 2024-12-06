@@ -7,7 +7,9 @@ Step-by-Step Execution:
 
 Web App Deployment:
 I have deployed my Web App using Microsoft Azure, and you can access it via the following link to try out the working of my web app and check the model’s accuracy:
-Link: deepfake-g5cjcbhrhkdjb8fz.eastus2-01.azurewebsites.net
+
+Link to the Web App: deepfake-g5cjcbhrhkdjb8fz.eastus2-01.azurewebsites.net
+
 Note: Since the application is hosted on a free-tier service, users may experience higher loading times and occasional performance limitations.
 Since the web app is hosted on a public platform, users will not have access to the Write and Rewrite API operations that occur in the backend, involving the Chrome Storage API, which handles data storage.
 
